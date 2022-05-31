@@ -1,2 +1,2 @@
-// # TODO: Uncomment this and place your document title as a level 0 heading
-// TODO: Uncomment this and enter authors. They _have_ to be right under the level 0 heading above
+# Woke Fuzzer: EthPrague 2022
+Dominik Teiml, Michal Převrátil

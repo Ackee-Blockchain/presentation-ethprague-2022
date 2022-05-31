@@ -20,7 +20,7 @@ toc::[]
 :leveloffset: +1
 
 // Create files in ./src, and include them here
-// include::./src/.adoc[]
+include::./src/about-us.adoc[]
 // We open-source our presentations, so make sure you don't
 // include any private information e.g. in the comments
 // Good luck in your presentation!
