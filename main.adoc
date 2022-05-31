@@ -1,0 +1,26 @@
+// Begin Header
+include::./template-config/header.adoc[]
+include::./user-config/header.adoc[]
+// End Header
+
+// Begin Non-Header Builtins
+include::./template-config/non-header-builtins.adoc[]
+include::./user-config/non-header-builtins.adoc[]
+// End Non-Header Builtins
+
+// Begin Variables
+include::./template-config/variables.adoc[]
+include::./user-config/variables.adoc[]
+// End Variables
+
+toc::[]
+
+// This creates an offset for headings, so that you can use
+// `# X` for your slide titles, but it will be rendered as `## X`.
+:leveloffset: +1
+
+// Create files in ./src, and include them here
+// include::./src/.adoc[]
+// We open-source our presentations, so make sure you don't
+// include any private information e.g. in the comments
+// Good luck in your presentation!

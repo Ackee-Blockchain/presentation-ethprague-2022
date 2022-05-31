@@ -1,0 +1,13 @@
+// This document contains builtin attributes that can occur anywhere in the document
+// See https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/
+// This probably means they can be overriden in the content of the document.
+// Most of the comments in ./header.adoc also apply here!
+// Compliance attributes
+:attribute-missing: warn
+// Localization and numbering attributes
+:listing-caption: Listing
+:section-refsig:
+// Section title and table of contents attributes
+:sectnumlevels: 2
+// General content and formatting attributes
+:xrefstyle: short

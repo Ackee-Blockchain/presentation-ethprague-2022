@@ -1,0 +1,37 @@
+// In AsciiDoc, you can define attributes with :name: value.
+// You can make your own attributes, which serve as variables.
+// However, there is also a list of "butiltin" attributes
+// that control the behavior of the processor.
+// Ref: https://docs.asciidoctor.org/asciidoc/latest/attributes/document-attributes-ref/
+// There are two types of builtin attributes: those that can 
+// only appear in the document header, and those that can
+// appear anywhere.
+// A document header is the section of the document before
+// the first empty line.
+// As such, this this file may have comments, but not empty lines
+// because that would end the header. If you wish to override
+// any of the options here, do so in `user-config/header.adoc` 🙂
+// There is another way to categorize attributes:
+// Those that are intended for Asciidoctor (usually they are platform-
+// independent, or for html-only), and those that are for Asciidoctor-Pdf
+// This file includes both, separated by `REGION`.
+// The attributes are sorted by their 1st appearance in the reference page.
+// The comments are the titles of the sections where the attribute appears.
+// REGION: ASCIIDOCTOR HEADER-ONLY BUILTIN ATTRIBUTES
+// Intrinsic attributes
+:doctype: article
+// Localization and numbering attributes
+:toc-title: Contents
+// Section title and table of contents attributes
+:toc: macro
+// Source highlighting and formatting attributes
+:rouge-style: pastie
+:source-highlighter: rouge
+// REGION: ASCIIDOCTOR-PDF HEADER-ONLY BUILTIN ATTRIBUTES
+// Ref: https://docs.asciidoctor.org/pdf-converter/latest/asciidoc-attributes/
+// AsciiDoc document attributes
+:pdf-page-size: 9in x 6in
+:title-page:
+// Don't appear in reference file 🙁
+:pdf-theme: pdf-theme.yml
+:pdf-fontsdir: assets/fonts,GEM_FONTS_DIR
