@@ -1,2 +1,6 @@
 # Woke Fuzzer: EthPrague 2022
 Dominik Teiml, Michal Převrátil
+:toclevels: 1
+:data-uri:
+:cache-uri:
+//:emoji: tortue

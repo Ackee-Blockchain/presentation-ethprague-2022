@@ -6,10 +6,13 @@
 * Michal Převrátil: Woke Developer @ Ackee Blockchain.
 
 <<<
+[%notitle]
 # History of Woke
+
+## Beginning
 I think we all feel the unmaturity of existing Ethereum tooling.
 
-This is usually NOT the fault of the developers.
+This is usually NOT the fault of the developers of those tools.
 
 Making great tools requires:
 
@@ -22,7 +25,7 @@ and the gains (at least for the developer) are not immediately super high.
 Sometime in October 2021, Dom saw enough possible improvements for Slither to warrant building a new tool.
 
 <<<
-# History of Woke II
+## Ideation
 So originally, the idea was just to build a better Slither.
 
 Later, we realized that if we have that, we can easily implement a lot of other features:
@@ -34,7 +37,7 @@ Later, we realized that if we have that, we can easily implement a lot of other 
 and many others. We got to work.
 
 <<<
-# History of Woke III
+## Woke Fuzzer
 First, we implemented a config parser, a Solidity version manager, a regex parser for versions and imports, and a compilation manager.
 
 Sometime in March, Dom implemented a simple fuzzer during a smart contract audit.
@@ -42,10 +45,18 @@ Sometime in March, Dom implemented a simple fuzzer during a smart contract audit
 We then used it during several audits and it found several high-severity bugs.
 
 <<<
-# History of Woke IV
-Fork?
+## The Fork
+image::./assets/git-fork.svg[width=50]
+In May 2022 (a few weeks ago) Dom decided to fork the project.
 
-# .
+* to explore new methods of symbolic execution and contract visualization
+
+The original Woke team at {abch} will focus on the Language server. {heart-eyes}
+
+## The Merge?
+image::./assets/git-merge.svg[width=50]
+
+# Bla
 
 Merge?
 

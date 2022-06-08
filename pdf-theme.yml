@@ -46,7 +46,7 @@ title-page:
     font-color: #fff
   logo:
     align: left
-    image: image:assets/logo-white.png[pdfwidth=40%, opts=align-to-page]
+    image: image:assets/abch-logo-white.png[pdfwidth=40%, opts=align-to-page]
     top: 0vh
     margin-left: 0
 code:
@@ -91,7 +91,19 @@ font:
       italic: SpaceMono_Italic.ttf
       bold: SpaceGrotesk_Bold.ttf
       bold_italic: SpaceMono_Bold_Italic.ttf
-literal:
+    Emoji:
+      # normal: OpenSansEmoji.ttf
+      # bold: OpenSansEmoji.ttf
+      # italic: OpenSansEmoji.ttf
+      # bold_italic: OpenSansEmoji.ttf
+      normal: NotoColorEmoji.ttf
+      bold: NotoColorEmoji.ttf
+      italic: NotoColorEmoji.ttf
+      bold_italic: NotoColorEmoji.ttf
+  # fallbacks:
+  #   - M+ 1p Fallback
+  #   - Emoji
+codespan:
   font-family: Courier
   font-size: 85%
   font-color: #901020

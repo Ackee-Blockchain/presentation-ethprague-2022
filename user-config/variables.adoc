@@ -1,1 +1,5 @@
+// REGION: LINKS
 :abch: https://github.com/Ackee-Blockchain[Ackee Blockchain]
+
+// REGION: EMOJIS
+:heart-eyes: image:./assets/heart_eyes.png[fit=line]
