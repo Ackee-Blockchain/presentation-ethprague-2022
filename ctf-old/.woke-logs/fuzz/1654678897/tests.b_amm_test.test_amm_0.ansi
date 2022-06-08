@@ -1,0 +1,19 @@
+Using seed '73ad317252cdb90c' for process #0
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8545 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x19a767480dd2e41b970c958ea1a2f79b71c61405bd71574c6b725f42fe9fce2e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.constructor confirmed   Block: [0;1;34m1[0;m   Gas used: [0;1;34m514373[0;m ([0;1;34m4.29%[0;m)
+  Token deployed at: [0;1;34m0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87[0;m
+
+Transaction sent: [0;1;34m0x0e97382edf6c30b3960ff8ca45f9edf66fac4f9f91a2b85bbe13f56a9b8e5288[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.constructor confirmed   Block: [0;1;34m2[0;m   Gas used: [0;1;34m514373[0;m ([0;1;34m4.29%[0;m)
+  Token deployed at: [0;1;34m0x602C71e4DAC47a042Ee7f46E0aee17F94A3bA0B6[0;m
+
+Transaction sent: [0;1;34m0xaaccbd9edc941540674f3595aa97eee38c2e05db6d9ab8f580e136501a173468[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.constructor confirmed   Block: [0;1;34m3[0;m   Gas used: [0;1;34m325557[0;m ([0;1;34m2.71%[0;m)
+  Amm deployed at: [0;1;34m0xE7eD6747FaC5360f88a2EFC03E00d25789F69291[0;m
+
+Terminating local RPC client...

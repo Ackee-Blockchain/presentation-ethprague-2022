@@ -1,0 +1,92 @@
+[
+    {
+        "inputs": [
+            {
+                "internalType": "contract Token",
+                "name": "_token0",
+                "type": "address"
+            },
+            {
+                "internalType": "contract Token",
+                "name": "_token1",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "constructor",
+        "name": "constructor"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "x",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "y",
+                "type": "uint256"
+            },
+            {
+                "internalType": "uint256",
+                "name": "deltaX",
+                "type": "uint256"
+            }
+        ],
+        "name": "getDeltaY",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "deltaY",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "pure",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "amountToUser",
+                "type": "uint256"
+            },
+            {
+                "internalType": "bool",
+                "name": "token1ForUser",
+                "type": "bool"
+            }
+        ],
+        "name": "swap",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "token0",
+        "outputs": [
+            {
+                "internalType": "contract Token",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [],
+        "name": "token1",
+        "outputs": [
+            {
+                "internalType": "contract Token",
+                "name": "",
+                "type": "address"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    }
+]

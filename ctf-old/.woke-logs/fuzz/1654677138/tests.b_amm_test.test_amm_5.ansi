@@ -1,0 +1,5 @@
+Using seed '1f41121150c3a5b0' for process #5
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8550 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x19a767480dd2e41b970c958ea1a2f79b71c61405bd71574c6b725f42fe9fce2e[0;m
+Terminating local RPC client...

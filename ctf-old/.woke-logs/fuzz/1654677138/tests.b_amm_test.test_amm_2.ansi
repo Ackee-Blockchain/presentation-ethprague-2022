@@ -1,0 +1,111 @@
+Using seed '672c1fe8a90140bf' for process #2
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8547 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x19a767480dd2e41b970c958ea1a2f79b71c61405bd71574c6b725f42fe9fce2e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.constructor confirmed   Block: [0;1;34m1[0;m   Gas used: [0;1;34m514373[0;m ([0;1;34m4.29%[0;m)
+  Token deployed at: [0;1;34m0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87[0;m
+
+Terminating local RPC client...
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 398, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1256, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1302, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1251, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1011, in _send_output
+    self.send(msg)
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 951, in send
+    self.connect()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x10e66b670>: Failed to establish a new connection: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8547): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e66b670>: Failed to establish a new connection: [Errno 61] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/contract.py", line 277, in _add_from_tx
+    self.at(tx.contract_address, tx.sender, tx)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/contract.py", line 264, in at
+    contract._save_deployment()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/contract.py", line 829, in _save_deployment
+    "blockHeight": web3.eth.block_number,
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/eth.py", line 620, in block_number
+    return self.get_block_number()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/module.py", line 57, in caller
+    result = w3.manager.request_blocking(method_str,
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/manager.py", line 197, in request_blocking
+    response = self._make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/manager.py", line 150, in _make_request
+    return request_func(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/formatting.py", line 94, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/gas_price_strategy.py", line 90, in middleware
+    return make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/formatting.py", line 94, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/attrdict.py", line 33, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/formatting.py", line 94, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/formatting.py", line 94, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/formatting.py", line 94, in middleware
+    response = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/buffered_gas_estimate.py", line 40, in middleware
+    return make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/middlewares/catch_tx_revert.py", line 24, in process_request
+    result = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/middlewares/ganache7.py", line 17, in process_request
+    result = make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/middleware/exception_retry_request.py", line 105, in middleware
+    return make_request(method, params)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/providers/rpc.py", line 88, in make_request
+    raw_response = make_post_request(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/_utils/request.py", line 102, in make_post_request
+    response = session.post(endpoint_uri, data=data, *args, **kwargs)  # type: ignore
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8547): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x10e66b670>: Failed to establish a new connection: [Errno 61] Connection refused'))

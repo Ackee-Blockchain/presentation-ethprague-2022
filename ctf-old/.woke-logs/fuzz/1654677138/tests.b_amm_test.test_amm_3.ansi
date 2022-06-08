@@ -1,0 +1,23 @@
+Using seed 'd544c78f39f57837' for process #3
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8548 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x19a767480dd2e41b970c958ea1a2f79b71c61405bd71574c6b725f42fe9fce2e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.constructor confirmed   Block: [0;1;34m1[0;m   Gas used: [0;1;34m514373[0;m ([0;1;34m4.29%[0;m)
+  Token deployed at: [0;1;34m0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87[0;m
+
+Terminating local RPC client...
+Exception in thread Thread-3:
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
