@@ -90,7 +90,7 @@ font:
       normal: SpaceGrotesk.ttf
       italic: SpaceMono_Italic.ttf
       bold: SpaceGrotesk_Bold.ttf
-      bold_italic: SpaceMono_Bold_Italic.ttfi
+      bold_italic: SpaceMono_Bold_Italic.ttf
 codespan:
   font-family: Courier
   font-size: 85%

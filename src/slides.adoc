@@ -56,8 +56,18 @@ The original Woke team at {abch} will focus on the Language server. {heart-eyes}
 ## The Merge?
 image::./assets/git-merge.svg[width=50]
 
-# Bla
+<<<
+# Existing fuzzers
 
-Merge?
+## Echidna
 
-# Echidna
+Echidna is powerful, but we think the following are very real issues:
+
+* 
+
+# FAQ
+
+> How can I get help?
+
+[.text-center]
+https://t.me/+n7Z37eJ1_hM0ZmJk
