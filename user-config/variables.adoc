@@ -3,3 +3,4 @@
 
 // REGION: EMOJIS
 :heart-eyes: image:./assets/heart_eyes.png[fit=line]
+:slightly-smiling-face: image:./assets/slightly_smiling_face.png[fit=line]

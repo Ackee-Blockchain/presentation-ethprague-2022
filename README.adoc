@@ -1,0 +1,8 @@
+# EthPrague 2022 Woke Fuzzer workshop
+
+* The presentation (in AsciiDoc) is the top-level directory.
+* The workshop materials are in the `/ctf` directory.
+
+---
+
+Happy hacking]

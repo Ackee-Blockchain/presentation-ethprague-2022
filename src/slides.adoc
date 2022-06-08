@@ -5,6 +5,12 @@
 ** Fml. Gnosis, CertiK, Trail of Bits
 * Michal Převrátil: Woke Developer @ Ackee Blockchain.
 
+---
+
+* Github repo: https://bit.ly/ethprague
+** > `/ctf`
+* Telegram group: https://bit.ly/woke-fuzzer
+
 <<<
 [%notitle]
 # History of Woke
@@ -57,17 +63,154 @@ The original Woke team at {abch} will focus on the Language server. {heart-eyes}
 image::./assets/git-merge.svg[width=50]
 
 <<<
-# Existing fuzzers
+# Existing Fuzzers
 
 ## Echidna
 
 Echidna is powerful, but we think the following are very real issues:
 
-* 
+* Prior to Solidity 0.8, it was not able to find assertion failures outside of main contract (https://github.com/crytic/echidna/issues/601[issue#601])
+* It cannot find assertion failures in non-top-level message calls (https://github.com/crytic/echidna/issues/668[issue#668])
+** Not sure about the status right now
 
+But most importantly, we don't like to use Solidity for testing. Compared to Python:
+
+. you have a slower iteration speed due to Solidity's absurd type system
+** in most PLs, subclasses are consistent with superclasses when passed in as parameters
+*** in Solidity, pass:q[`mapping balances (address => uint)`]
+**** `balances[someContractInstance]` will _not_ be a valid expression
+. there is no REPL (iteractive console) for Solidity
+. it's harder to do differential fuzzing because you have to re-implement the logic in the same language
+
+<<<
+## Brownie (Hypothesis)
+
+* For a while, we liked `brownie`'s State machines
+** It uses the Python library `hypothesis` under the hood
+* However, at some point we realized it is not optimized functionally for smart contracts
+* It was difficult to create complex fuzzing models
+
+<<<
+# Woke Fuzzer
+
+* Woke Fuzzer is Woke's first released feature
+* It currently uses Ganache for Node implementation and Brownie for Python bindings
+* In the future, we plan to remove the dependency on Brownie, and optionally experiment with Anvil or Hardhat Network.
+
+<<<
+# How to use
+
+
+
+[cols="50,50"]
+|===
+a|
+. Create a `tests` directory
+. Create a directory for each fuzzing model, e.g. each smart contract
+** `token/`
+** `amm/`
+. Create a file `X_test` that serves as the entrypoint to the fuzzing model
+** `token_test.py`
+** `amm_test.py`
+. There are various possible structures for each of the directories
+
+a| 
+{empty}
+
+[source,]
+----
+project/
+├─ contracts/
+     ├─ Token.sol
+     └─ Amm.sol
+└─ tests/
+     ├─ token/
+          ├─ setup.py
+          └─ flows.py
+     ├─ amm/
+          ├─ setup.py
+          └─ flows.py
+     ├─ __init__.py
+     ├─ token_test.py
+     └─ amm_test.py
+----
+|===
+
+<<<
+
+[cols="20, .^18, 20, .^26, 20"]
+|===
+a|
+
+include::./empty-page.adoc[]
+
+a|
+----
+setup.py
+flows.py
+----
+
+a|
+
+a|
+----
+helpers.py
+setup.py
+models.py
+validators.py
+transactions.py
+flows.py
+invariants.py
+issues.py
+----
+a|
+|===
+
+<<<
+[%notitle]
+# Workshop
+## Setup
+
+### Resources
+
+[,bash]
+----
+git clone git@github.com:Ackee-Blockchain/presentation-ethprague-2022.git
+----
+
+### Installation
+You can install Woke with pip (`pip install woke`).
+
+Pythonistas probably know how to do this, if you don't have much experience, you can just:
+
+[.text-center]
+[,bash]
+----
+cd ctf;
+python3 -m venv venv
+source ./venv/bin/activate
+pip install woke
+----
+<<<
+## Contracts
+* You can find the contracts in the `/ctf/contracts` directory
+** https://bit.ly/ethprague
+* We have two targets:
+.. A token with ICO mechanism
+.. An Amm (automated market maker)
+* In `/ctf/tests` you can find the harness for your tests including the setup
+* Your goal is to add flows that identify the bugs in the contracts {slightly-smiling-face}
+
+<<<
 # FAQ
 
 > How can I get help?
 
 [.text-center]
-https://t.me/+n7Z37eJ1_hM0ZmJk
+Join the Telegram group! {empty}{empty}{empty} https://bit.ly/woke-fuzzer
+
+
+> I'm done!
+
+[.text-center]
+Try fuzzing some of your own contracts.

@@ -52,7 +52,7 @@ title-page:
 code:
   highlight-background-color: #FFFFFF
 table:
-  border-color: #000
+  border-color: #fff
   caption-side: bottom
   caption-align: center
   head:
@@ -91,9 +91,11 @@ font:
       italic: SpaceMono_Italic.ttf
       bold: SpaceGrotesk_Bold.ttf
       bold_italic: SpaceMono_Bold_Italic.ttf
+  fallbacks:
+    - Noto Serif
 codespan:
   font-family: Courier
   font-size: 85%
   font-color: #901020
 running-content:
-  start-at: title
+  start-at: toc
