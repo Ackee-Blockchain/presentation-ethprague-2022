@@ -1,0 +1,291 @@
+Using seed 'b22c30885cf9a666' for process #3
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8548 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x4fd0f81d76cde3424080809a2cc1b6ff4d3283c9cfe925e699c6d62d273c84e3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.constructor confirmed   Block: [0;1;34m1[0;m   Gas used: [0;1;34m527965[0;m ([0;1;34m4.40%[0;m)
+  Token deployed at: [0;1;34m0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87[0;m
+
+Transaction sent: [0;1;34m0xb14116b6f79071ba022ac823822d2a8502c325ce3c6e4b8ce3ba85df1c0ca619[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.constructor confirmed   Block: [0;1;34m2[0;m   Gas used: [0;1;34m527965[0;m ([0;1;34m4.40%[0;m)
+  Token deployed at: [0;1;34m0x602C71e4DAC47a042Ee7f46E0aee17F94A3bA0B6[0;m
+
+Transaction sent: [0;1;34m0x38d03c143456443121be9a888e29b8d787013651a278a6efdb114c05d5024a97[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.constructor confirmed   Block: [0;1;34m3[0;m   Gas used: [0;1;34m325773[0;m ([0;1;34m2.71%[0;m)
+  Amm deployed at: [0;1;34m0xE7eD6747FaC5360f88a2EFC03E00d25789F69291[0;m
+
+Transaction sent: [0;1;34m0x62ec23a35e3c393ddb8dc62c7e1eae6cdcf596d282dedfc4d9a3c465c57f78ea[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.mint confirmed   Block: [0;1;34m4[0;m   Gas used: [0;1;34m65208[0;m ([0;1;34m0.54%[0;m)
+
+Transaction sent: [0;1;34m0x058adec3368afcd8e932b6d99c49d12debfc8bc394395c6192feefff1fd8bd0e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Token.mint confirmed   Block: [0;1;34m5[0;m   Gas used: [0;1;34m65208[0;m ([0;1;34m0.54%[0;m)
+
+Transaction sent: [0;1;34m0xeb9303e39add6093af16c2a3bb1c7310f151d3b43918d3ab9e37ad23e9c1f5e3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.transfer confirmed   Block: [0;1;34m6[0;m   Gas used: [0;1;34m35974[0;m ([0;1;34m0.30%[0;m)
+
+Transaction sent: [0;1;34m0xedb74244e67a9bbc8f42a94624089222028f5e5663a900eb82f93418e4f3811e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Token.transfer confirmed   Block: [0;1;34m7[0;m   Gas used: [0;1;34m35974[0;m ([0;1;34m0.30%[0;m)
+
+Transaction sent: [0;1;34m0x42f4a0c9c0db5abcafec2f5ad845bc8c934fd0917d2773424c4d3b9e8a183cd3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.mint confirmed   Block: [0;1;34m8[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0xd3eced9de90c93b44071af206e3a00391017bbbec31af67c1d0bd653aec8c0d7[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.mint confirmed   Block: [0;1;34m9[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0x4fe13ebee1f2eb109ccbf6277361f49e0b04b44784f527c1ef0c99eb8c941944[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.mint confirmed   Block: [0;1;34m10[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0xe5928bfb9e19e9053eec0bb4911757804cfb60fed862bfb1e87b68da12226fd4[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.approve confirmed   Block: [0;1;34m11[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x1b90874f0b193e263a13af3422f80106660afe0705f3a5e79ed9356b43de633b[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.swap confirmed   Block: [0;1;34m12[0;m   Gas used: [0;1;34m63783[0;m ([0;1;34m0.53%[0;m)
+
+Transaction sent: [0;1;34m0x94dd9ddbaf976bae4a593f5dc78bbf1f94b268acb6beb63cc8a49403ed649e9e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.approve confirmed   Block: [0;1;34m13[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xd3296e9f238867e7eccd87dee653bd5bc213d787cd68376adbd14345faa9c94a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Amm.swap confirmed   Block: [0;1;34m14[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x75dc9574231955aa9f500b60167f2aa6f2551837716253aafc20b4a89d2cb06f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.approve confirmed   Block: [0;1;34m15[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x40d2258d33f6785cf08935f983d6a2d0ddc590143f709257850355189ea4439b[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Amm.swap confirmed   Block: [0;1;34m16[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x8fcedab2e7d27802291577be40b647a3f31a1db50f32c450eadadf5f9e108c39[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.approve confirmed   Block: [0;1;34m17[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x51e6d8103cf1da95811476920bd0e23ecb69c18d014486589cc48624af8a78bb[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Amm.swap confirmed   Block: [0;1;34m18[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x25f4a13fac961652cdb705444ef9ee70a29797ab64281392632a7650488f6cfb[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.approve confirmed   Block: [0;1;34m19[0;m   Gas used: [0;1;34m44065[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xbec89cfab3bb9ca3c92c72082ac8789fb0cbc973af1aac70695ea3c89e16b960[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.swap confirmed   Block: [0;1;34m20[0;m   Gas used: [0;1;34m33759[0;m ([0;1;34m0.28%[0;m)
+
+Transaction sent: [0;1;34m0x4c9195be43482dbd2fda7489072af6821ea759934d4588bd6c1ecb689ab4e583[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Token.approve confirmed   Block: [0;1;34m21[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x4a751d77977ae05e3abd6f725d82211b5ab99980b8b09b6626c04d9d49c52307[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Amm.swap confirmed   Block: [0;1;34m22[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x282f3e7d914543932a5df4685facec2a577ec55986de879b8edaf3e47aac3e56[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Token.approve confirmed   Block: [0;1;34m23[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xb7c743a9cf638d19cdff4b9c90f6f88e2be9080ffab4da89477503c88eddd5ff[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Amm.swap confirmed   Block: [0;1;34m24[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x0f42c7c9f5d3bc3443dade793cd454b665fce095f1b9408cb07664b9b2c0be85[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Token.approve confirmed   Block: [0;1;34m25[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xf5fef58ffde9b25a56e3d7fe3b0b6cee8c4e3e0e05c0437d35b9a4b7534cd96a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Amm.swap confirmed   Block: [0;1;34m26[0;m   Gas used: [0;1;34m33783[0;m ([0;1;34m0.28%[0;m)
+
+Transaction sent: [0;1;34m0x2104b671f9fe00f4e55a9e1c9d504236b0717c6dd47738caaeaf76ac37aab378[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Token.approve confirmed   Block: [0;1;34m27[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xa0990890461595725a7ebf5472349845573d690bddd77d4dfc34ba1035c125db[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Amm.swap confirmed   Block: [0;1;34m28[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x0ae1d53f3b1a7c1abb23ad74952d10ac85f289b63e8ef122294ab7737a6e2941[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Token.approve confirmed   Block: [0;1;34m29[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x3af7a232b1faff8d79c8e3bbe0ed27c053e454151705ae2c0d5fadef40514a65[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m13[0;m
+  Amm.swap confirmed   Block: [0;1;34m30[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xf163d758dbfc716476d6c4cdb6777edcdad2d8214da05e19ff735420a6fb132f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.approve confirmed   Block: [0;1;34m31[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xc4556fee693f3ca1f5cb349605111fea0718ee64c6645108d9fdb7fd9b55ac14[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Amm.swap confirmed   Block: [0;1;34m32[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x0d321ef69fbd26c4e94ff091746ba286da291334cb386b4cc52967060f082150[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m13[0;m
+  Token.approve confirmed   Block: [0;1;34m33[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xb8de3ed61658c0da9998e0bbcfc19cb89a0be4aaac59a788de6908192823b5ba[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m14[0;m
+  Amm.swap confirmed   Block: [0;1;34m34[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x454494e652e85a2d8df9a600d25127090cf65753996e0c65ab18f7482bad426a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.approve confirmed   Block: [0;1;34m35[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xd5d694fc6295f461d43a805787991e2244cc8060783516e95664f5dcc536a780[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Amm.swap confirmed   Block: [0;1;34m36[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x2bd286a4d2917e2b05d233ca4f512271e86adcb0a4f1a75dc4842cf944791e21[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.approve confirmed   Block: [0;1;34m37[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x6e6ad19b48c45ef664ef333d48446d73ac4a3fcff021825071d04c43c4a19374[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Amm.swap confirmed   Block: [0;1;34m38[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x6f3404eb59f6efbf115c257c7bbf0ceb9fb1d7113f4117b0f05be67e62e9954f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m14[0;m
+  Token.approve confirmed   Block: [0;1;34m39[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xd9b069db5424d9b8bf26b1521715dde4d780daa1a2c35f08fe40b44b00d58aa7[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m15[0;m
+  Amm.swap confirmed   Block: [0;1;34m40[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x2d25d38f922e5be84ab920f9a82466fb9d10f73cae5b1db39db0a07349d5cb84[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m16[0;m
+  Token.approve confirmed   Block: [0;1;34m41[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x8ce0dc3fbfde32729b72916b8520b63d7c90a9f4881ae3c1ccfdfe771d3ab83a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m17[0;m
+  Amm.swap confirmed   Block: [0;1;34m42[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xade606757deba198e95808554ea864c7650174351ae009b65cba5cd8ca25317f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m18[0;m
+  Token.approve confirmed   Block: [0;1;34m43[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x5ae3f6dbc6b1935fd27a0fbf3215eee18d5d76675eadaa76d994081bbffca03c[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m19[0;m
+  Amm.swap confirmed   Block: [0;1;34m44[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x7b814d4d20f2d05fd76a8d3fb5d7d85c0ae438a1db7eed9349203e549dcdeca0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Token.approve confirmed   Block: [0;1;34m45[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x05cd049b71aaf1ad9bfd8479e5f155f6a3d9f3ae0871929f260461ffee274303[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Amm.swap confirmed   Block: [0;1;34m46[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x4db988d974f6f8a19a9d8ea0e0ff87117303b4b027f1d9ed1162be545d241bfc[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Token.approve confirmed   Block: [0;1;34m47[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x2d5beb88aef68936815a50ef126e9575f1e2e74e29abaff1dcdcdaa59db3f3ca[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Amm.swap confirmed   Block: [0;1;34m48[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xf252e80d6dd412fe59536b816648534fae374ade06e33d760f623b359a77b6d0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m15[0;m
+  Token.approve confirmed   Block: [0;1;34m49[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x180b1b42bb1993dd528b4410ea9195f260e150ecea276dce85e35d955aa8f10a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m16[0;m
+  Amm.swap confirmed   Block: [0;1;34m50[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Terminating local RPC client...
+Exception in thread Thread-104:
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/adapters.py", line 440, in send
+    resp = conn.urlopen(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 785, in urlopen
+    retries = retries.increment(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/packages/six.py", line 769, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 449, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/urllib3/connectionpool.py", line 444, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 1348, in getresponse
+    response.begin()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 316, in begin
+    version, status, reason = self._read_status()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/http/client.py", line 277, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/rpc/ganache.py", line 125, in _request
+    response = web3.provider.make_request(method, args)  # type: ignore
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/providers/rpc.py", line 88, in make_request
+    raw_response = make_post_request(
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/web3/_utils/request.py", line 102, in make_post_request
+    response = session.post(endpoint_uri, data=data, *args, **kwargs)  # type: ignore
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 577, in post
+    return self.request('POST', url, data=data, json=json, **kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 529, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/sessions.py", line 645, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/requests/adapters.py", line 501, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/Users/dteiml/.pyenv/versions/3.8.12/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/state.py", line 330, in _add_to_undo_buffer
+    self._current_id = rpc.Rpc().snapshot()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/rpc/__init__.py", line 46, in wrapped
+    return fn(*args, **kwargs)
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/rpc/__init__.py", line 176, in snapshot
+    return self.backend.snapshot()
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/rpc/ganache.py", line 147, in snapshot
+    return _request("evm_snapshot", [])
+  File "/Users/dteiml/.virtualenvs/woke/lib/python3.8/site-packages/brownie/network/rpc/ganache.py", line 129, in _request
+    raise RPCRequestError("Web3 is not connected.")
+brownie.exceptions.RPCRequestError: Web3 is not connected.

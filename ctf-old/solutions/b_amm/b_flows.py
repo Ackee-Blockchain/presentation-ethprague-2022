@@ -16,5 +16,6 @@ class Flows(a_setup.Setup):
         caller: Account,
         amount: int,
     ):
+
         s.token0.approve(s.amm, amount, config(caller))
         s.amm.swap(amount, True, config(caller))

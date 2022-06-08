@@ -1,0 +1,207 @@
+Using seed 'ec8b26fcea9f0657' for process #5
+
+Launching 'ganache-cli --chain.vmErrorsOnRPCResponse true --server.port 8550 --miner.blockGasLimit 12000000 --wallet.totalAccounts 10 --hardfork istanbul --wallet.mnemonic brownie'...
+Transaction sent: [0;1;34m0x4fd0f81d76cde3424080809a2cc1b6ff4d3283c9cfe925e699c6d62d273c84e3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.constructor confirmed   Block: [0;1;34m1[0;m   Gas used: [0;1;34m527965[0;m ([0;1;34m4.40%[0;m)
+  Token deployed at: [0;1;34m0x3194cBDC3dbcd3E11a07892e7bA5c3394048Cc87[0;m
+
+Transaction sent: [0;1;34m0xb14116b6f79071ba022ac823822d2a8502c325ce3c6e4b8ce3ba85df1c0ca619[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.constructor confirmed   Block: [0;1;34m2[0;m   Gas used: [0;1;34m527965[0;m ([0;1;34m4.40%[0;m)
+  Token deployed at: [0;1;34m0x602C71e4DAC47a042Ee7f46E0aee17F94A3bA0B6[0;m
+
+Transaction sent: [0;1;34m0x38d03c143456443121be9a888e29b8d787013651a278a6efdb114c05d5024a97[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.constructor confirmed   Block: [0;1;34m3[0;m   Gas used: [0;1;34m325773[0;m ([0;1;34m2.71%[0;m)
+  Amm deployed at: [0;1;34m0xE7eD6747FaC5360f88a2EFC03E00d25789F69291[0;m
+
+Transaction sent: [0;1;34m0x62ec23a35e3c393ddb8dc62c7e1eae6cdcf596d282dedfc4d9a3c465c57f78ea[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.mint confirmed   Block: [0;1;34m4[0;m   Gas used: [0;1;34m65208[0;m ([0;1;34m0.54%[0;m)
+
+Transaction sent: [0;1;34m0x058adec3368afcd8e932b6d99c49d12debfc8bc394395c6192feefff1fd8bd0e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Token.mint confirmed   Block: [0;1;34m5[0;m   Gas used: [0;1;34m65208[0;m ([0;1;34m0.54%[0;m)
+
+Transaction sent: [0;1;34m0xeb9303e39add6093af16c2a3bb1c7310f151d3b43918d3ab9e37ad23e9c1f5e3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.transfer confirmed   Block: [0;1;34m6[0;m   Gas used: [0;1;34m35974[0;m ([0;1;34m0.30%[0;m)
+
+Transaction sent: [0;1;34m0xedb74244e67a9bbc8f42a94624089222028f5e5663a900eb82f93418e4f3811e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Token.transfer confirmed   Block: [0;1;34m7[0;m   Gas used: [0;1;34m35974[0;m ([0;1;34m0.30%[0;m)
+
+Transaction sent: [0;1;34m0x42f4a0c9c0db5abcafec2f5ad845bc8c934fd0917d2773424c4d3b9e8a183cd3[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.mint confirmed   Block: [0;1;34m8[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0xd3eced9de90c93b44071af206e3a00391017bbbec31af67c1d0bd653aec8c0d7[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.mint confirmed   Block: [0;1;34m9[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0x4fe13ebee1f2eb109ccbf6277361f49e0b04b44784f527c1ef0c99eb8c941944[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m0[0;m
+  Token.mint confirmed   Block: [0;1;34m10[0;m   Gas used: [0;1;34m50208[0;m ([0;1;34m0.42%[0;m)
+
+Transaction sent: [0;1;34m0x95370371899310663e979786bc158f054eeb33f3d93abb028b4ddd7adc2ff527[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.approve confirmed   Block: [0;1;34m11[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x2686f0e437bb4e8eef29b693b8fed4b8c92b79abd5970604b701f02ae74137e0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.swap confirmed   Block: [0;1;34m12[0;m   Gas used: [0;1;34m63783[0;m ([0;1;34m0.53%[0;m)
+
+Transaction sent: [0;1;34m0xc0678921e86fc689df03d4fed6cdc1363d3492d2b8e7a7d8b9c49be3a5089e8d[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.approve confirmed   Block: [0;1;34m13[0;m   Gas used: [0;1;34m44077[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x5c5d40e34bb1593667458e4afb232d6b67ebad9f53c8e0bfdafa7457bc87ee94[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Amm.swap confirmed   Block: [0;1;34m14[0;m   Gas used: [0;1;34m48771[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0xa485f5dff470d3517354847fb41998c7e948086e41d82499724097be26727d18[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m1[0;m
+  Token.approve confirmed   Block: [0;1;34m15[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xf53945cabb1e1f1ef7bea1dd97abb4922076994cbc785873ed1cb8c9735c973b[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m2[0;m
+  Amm.swap confirmed   Block: [0;1;34m16[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x454494e652e85a2d8df9a600d25127090cf65753996e0c65ab18f7482bad426a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.approve confirmed   Block: [0;1;34m17[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xd5d694fc6295f461d43a805787991e2244cc8060783516e95664f5dcc536a780[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Amm.swap confirmed   Block: [0;1;34m18[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x1d9a57477ea64f5b3bc5815f1ef784dd16e73402530b034e0a690274e345cf00[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Token.approve confirmed   Block: [0;1;34m19[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xddbff372a9bef17c1575954b3fa444abceb402bf8469a08c0baeb591c5ffc848[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Amm.swap confirmed   Block: [0;1;34m20[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0xb6a6c9b091ac816e755e330faf1619d3b4b5faab34470c438c7d2767be7fd7b4[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Token.approve confirmed   Block: [0;1;34m21[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x1cf18cf2976ddb4faed395ef0f773684361055208761521ed7e90ae1a3df6a0a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Amm.swap confirmed   Block: [0;1;34m22[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0xae6a18052a41126b7fcb6ad318d6be6982b0c471df929efab19a5a79c19a1af8[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m3[0;m
+  Token.approve confirmed   Block: [0;1;34m23[0;m   Gas used: [0;1;34m44077[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x09407b93be96555d772a0fe64b3df05f860a472003915398aa4d02be9d2d8aa0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m4[0;m
+  Amm.swap confirmed   Block: [0;1;34m24[0;m   Gas used: [0;1;34m33771[0;m ([0;1;34m0.28%[0;m)
+
+Transaction sent: [0;1;34m0x68ced0082453124e9c99312a2ce1613241e11ec39d259a3181efbefa5c3b960f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Token.approve confirmed   Block: [0;1;34m25[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0xc5e928f608d59b738ac1be0d6aedca27d6a48cda9f5fc6ffaa7508019e06445e[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m13[0;m
+  Amm.swap confirmed   Block: [0;1;34m26[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x89286d081ca9f405bf32a033401f7eb3a0a36f2a679ee9efa918145a377dc0fc[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.approve confirmed   Block: [0;1;34m27[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x146d30cd8609c7d3267abc6649caacae10d391538fa4b41f20a2bf7457c7a270[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Amm.swap confirmed   Block: [0;1;34m28[0;m   Gas used: [0;1;34m33783[0;m ([0;1;34m0.28%[0;m)
+
+Transaction sent: [0;1;34m0x75dc9574231955aa9f500b60167f2aa6f2551837716253aafc20b4a89d2cb06f[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m5[0;m
+  Token.approve confirmed   Block: [0;1;34m29[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x40d2258d33f6785cf08935f983d6a2d0ddc590143f709257850355189ea4439b[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m6[0;m
+  Amm.swap confirmed   Block: [0;1;34m30[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x849631fb90a803fe7e88802d0c21f995d97efdb7d79bea29eacfe4f3571b7dce[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m7[0;m
+  Token.approve confirmed   Block: [0;1;34m31[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xe7b7c6b3bae5a14cb9395f766f1e054ad8077ec2239f573aa8bfed67a19c1299[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m8[0;m
+  Amm.swap confirmed   Block: [0;1;34m32[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x7b814d4d20f2d05fd76a8d3fb5d7d85c0ae438a1db7eed9349203e549dcdeca0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Token.approve confirmed   Block: [0;1;34m33[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x05cd049b71aaf1ad9bfd8479e5f155f6a3d9f3ae0871929f260461ffee274303[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Amm.swap confirmed   Block: [0;1;34m34[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x4db988d974f6f8a19a9d8ea0e0ff87117303b4b027f1d9ed1162be545d241bfc[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Token.approve confirmed   Block: [0;1;34m35[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x2d5beb88aef68936815a50ef126e9575f1e2e74e29abaff1dcdcdaa59db3f3ca[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Amm.swap confirmed   Block: [0;1;34m36[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x0c3cdd1248143d5f2250193a8791ccd5cb42073320645ecd53a5cab40df0c2fc[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m9[0;m
+  Token.approve confirmed   Block: [0;1;34m37[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x346f089faec8cff98a7f89de21c169ae046501fdfb0c9edb427a3cce8cb3273d[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m10[0;m
+  Amm.swap confirmed   Block: [0;1;34m38[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xb5ba5f58b8ca585e193c4487d81cd188ff12ca1a4bc6c92f6849ade5bf30dc0c[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m14[0;m
+  Token.approve confirmed   Block: [0;1;34m39[0;m   Gas used: [0;1;34m44089[0;m ([0;1;34m0.37%[0;m)
+
+Transaction sent: [0;1;34m0x0d534d5bfc349b965161053f6a5081f0ec38f1756c327171bf0539b21e55378b[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m15[0;m
+  Amm.swap confirmed   Block: [0;1;34m40[0;m   Gas used: [0;1;34m48783[0;m ([0;1;34m0.41%[0;m)
+
+Transaction sent: [0;1;34m0x1995963c60477063ca95df65d2b20ec5536295df5d073db8f995f012aaedd967[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m13[0;m
+  Token.approve confirmed   Block: [0;1;34m41[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x3c1ef0e85cef46a2999cb591eb910852ef191b62299f8b7105a7be5f0ea1bd2c[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m14[0;m
+  Amm.swap confirmed   Block: [0;1;34m42[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x2104b671f9fe00f4e55a9e1c9d504236b0717c6dd47738caaeaf76ac37aab378[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m11[0;m
+  Token.approve confirmed   Block: [0;1;34m43[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xa0990890461595725a7ebf5472349845573d690bddd77d4dfc34ba1035c125db[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m12[0;m
+  Amm.swap confirmed   Block: [0;1;34m44[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0x0d321ef69fbd26c4e94ff091746ba286da291334cb386b4cc52967060f082150[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m13[0;m
+  Token.approve confirmed   Block: [0;1;34m45[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0xb8de3ed61658c0da9998e0bbcfc19cb89a0be4aaac59a788de6908192823b5ba[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m14[0;m
+  Amm.swap confirmed   Block: [0;1;34m46[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xe42dff9ad4349357aa5ae3749ddf00c6e7e3f6e21ce8da0c243232027c91a9fa[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m15[0;m
+  Token.approve confirmed   Block: [0;1;34m47[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x0f56ec73d4cdc87602407b70b363d747c5d017487d64674fe67308dc54860ded[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m16[0;m
+  Amm.swap confirmed   Block: [0;1;34m48[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Transaction sent: [0;1;34m0xf252e80d6dd412fe59536b816648534fae374ade06e33d760f623b359a77b6d0[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m15[0;m
+  Token.approve confirmed   Block: [0;1;34m49[0;m   Gas used: [0;1;34m24793[0;m ([0;1;34m0.21%[0;m)
+
+Transaction sent: [0;1;34m0x180b1b42bb1993dd528b4410ea9195f260e150ecea276dce85e35d955aa8f10a[0;m
+  Gas price: [0;1;34m0.0[0;m gwei   Gas limit: [0;1;34m12000000[0;m   Nonce: [0;1;34m16[0;m
+  Amm.swap confirmed   Block: [0;1;34m50[0;m   Gas used: [0;1;34m42687[0;m ([0;1;34m0.36%[0;m)
+
+Terminating local RPC client...

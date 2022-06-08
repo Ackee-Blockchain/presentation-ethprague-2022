@@ -32,10 +32,10 @@ class Flows(a_setup.Setup):
         s._withdraw()
 
     def _withdraw(s):
-        owners_balance_pre = s.accounts[0].balance()
-        tokens_balance_pre = s.token.balance()
-        s.token.withdraw()
-        owners_balance_post = s.accounts[0].balance()
-        assert (
-            owners_balance_post - owners_balance_pre == tokens_balance_pre
-        ), f"Expected {owners_balance_post} - {owners_balance_pre} == {tokens_balance_pre}"
+        # Write your interaction here 🚀
+        # Here is an example: s.token.withdraw()
+        # In this simple fuzzing model, you probably
+        # just want to check some values before you call
+        # then interact with the contract and check values after
+        # this is just like in unit tests!
+        ...

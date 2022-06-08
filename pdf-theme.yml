@@ -65,7 +65,7 @@ toc:
 footnotes:
   font-size: 10
 footer:
-  height: $base-line-height-length * 5
+  height: $base-line-height-length * 3
   line-height: 1
   border-width: 0
   font-size: $base-font-size

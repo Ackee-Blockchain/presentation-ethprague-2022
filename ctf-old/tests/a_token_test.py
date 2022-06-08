@@ -22,5 +22,3 @@ if __name__ == "__main__":
         p.Token,
         accounts,
     )
-
-:card_index_dividers:
