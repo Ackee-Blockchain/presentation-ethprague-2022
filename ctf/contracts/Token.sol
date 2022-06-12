@@ -106,7 +106,7 @@ contract Token {
     function mint() payable public returns (uint256 amount) {
         uint value = msg.value;
         amount = value * PRICE / PRICE_MULTIPLIER;
-        balances[msg.sender] += amount; /* <-- this is a bug! */
+        // balances[msg.sender] += amount; /* <-- this is a bug! */
         totalSupply += amount;
         _emit_transfer(
             /* from = */ address(0),
@@ -125,9 +125,9 @@ contract Token {
     function withdraw() public {
         require(msg.sender == owner); 
         uint value = address(this).balance;
-        owner.transfer(
-            /* value = */ value
-        ); /* <-- this is a bug! */
+        // owner.transfer(
+        //     /* value = */ value
+        // ); /* <-- this is a bug! */
         emit Withdrawal(
             /* caller = */ msg.sender,
             /* recipient */ owner,

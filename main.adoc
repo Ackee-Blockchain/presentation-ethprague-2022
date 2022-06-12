@@ -21,6 +21,8 @@ toc::[]
 
 // Create files in ./src, and include them here
 include::./src/slides.adoc[]
+
+include::./src/appendix-post.adoc[]
 // We open-source our presentations, so make sure you don't
 // include any private information e.g. in the comments
 // Good luck in your presentation!

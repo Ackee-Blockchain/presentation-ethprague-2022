@@ -46,10 +46,10 @@ contract Amm {
             /*     to = */ address(this),
             /* amount = */ amountFromUser
         );
-        token_to_user.transfer(
-            /*     to = */ address(token_to_user),
-            /* amount = */ amount_to_user
-        );
+        // token_to_user.transfer(
+        //     /*     to = */ address(token_to_user),
+        //     /* amount = */ amount_to_user
+        // ); <-- this is a bug! */
     }
 
     /// We have:
